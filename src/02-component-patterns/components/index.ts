@@ -4,10 +4,10 @@ import { ProductImage } from './ProductImage';
 import { ProductButtons } from './ProductButtons';
 import { ProductCardHOCProps } from '../interfaces/interfaces';
 
-export * from './ProductButtons';
+export {ProductButtons} from './ProductButtons';
 // export * from './ProductCard';
-export * from './ProductTitle';
-export * from './ProductImage';
+export {ProductTitle} from './ProductTitle';
+export { ProductImage } from './ProductImage';
 
 
 
