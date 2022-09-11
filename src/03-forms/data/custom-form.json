@@ -1,0 +1,63 @@
+[
+    {
+        "type": "input",
+        "name": "firstName",
+        "placeholder": "Pablo",
+        "label": "First Name",
+        "value": "",
+        "validations": [
+            {
+                "type": "required",
+                "label": "This field is required"
+            },
+            {
+                "type": "minLength",
+                "value": "5",
+                "label": "At least 5 characters"
+            }
+        ]
+    },
+    {
+        "type": "input",
+        "name": "lastName",
+        "placeholder": "Ariata",
+        "label": "Last Name",
+        "value": ""
+    },
+    {
+        "type": "email",
+        "name": "email",
+        "placeholder": "email@google.com",
+        "label": "Email",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            },
+            {
+                "type": "email",
+                "label": "Must provide a value email address"
+            }
+        ]
+    },
+    {
+        "type": "select",
+        "name": "favoriteGame",
+        "label": "Favorite Game",
+        "value": "",
+        "options": [
+            {
+                "id": "1",
+                "label": "Cs Go"
+            },
+            {
+                "id": "2",
+                "label": "Wow"
+            },
+            {
+                "id": "3",
+                "label": "Monkey Island"
+            }
+        ]
+    }
+]
